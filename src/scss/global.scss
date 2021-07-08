@@ -1,0 +1,54 @@
+@import "reset";
+@import "elements/buttons";
+@import "elements/burgermenu";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+body {
+  color: white;
+  font-family: $font-primary;
+  font-weight: 400; //700 for bold
+  font-size: 18px;
+  background-color: $bg-color;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.container {
+  padding: 0 40px;
+}
+.section {
+  margin-bottom: 150px;
+}
+.subpage {
+  margin-top: 150px;
+}
+
+.colored {
+  background: -webkit-linear-gradient(45deg, $dark-orange 0%, $light-orange 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.colored-blue {
+  background: -webkit-linear-gradient(45deg, #097882 0%, #70c896 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.click-disabled {
+  cursor: not-allowed;
+  a {
+    background-image: none;
+    background-color: #1c1c2c;
+    color: #77777f;
+    pointer-events: none;
+  }
+}
+.center {
+  text-align: center;
+}

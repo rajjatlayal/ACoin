@@ -1,0 +1,24 @@
+$bg-color: #121220;
+$dark-orange: #C96516;
+$light-orange: #F1AB3D;
+$dark-grey: #F4F4F4;
+$light-grey: #EEEEEE;
+$dark-blue: #1E96C8;
+$light-blue: #37AEE2;
+
+$font-primary: 'Inter', sans-serif;
+
+$secondary-color: #b4afbc;
+
+$mobile: 400px;
+$mobile-max: 799px;
+$tablet: 800px;
+$tablet-max: 1199px;
+$desktop: 1200px;
+
+@mixin bg-gradient($color1, $color2){
+  background-image: linear-gradient(90deg, $color1 0%, $color2 100%);
+}
+@mixin animated-bg-gradient($color1, $color2){
+  background-image: linear-gradient(to right, $color1 0%, $color2 51%, $color1 100%);
+}
