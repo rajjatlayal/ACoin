@@ -3,6 +3,7 @@
     :isStartingCoin="isStartingCoin"
     :isinProgressCoin="isinProgressCoin"
   ></Hero>
+  <DataTable></DataTable>
   <!-- <TableLite></TableLite> -->
   <Intro
     :isStartingCoin="isStartingCoin"
@@ -20,15 +21,18 @@ import firebase from "@/firebase";
 
 import Hero from "@/components/Hero.vue";
 // import TableLite from "@/components/TableLite.vue";
+import DataTable from "@/components/DataTable.vue";
 import Intro from "@/components/Intro.vue";
 import Features from "@/components/Features.vue";
 import Donate from "@/components/Donate.vue";
 import Contact from "@/components/Contact.vue";
 
 export default {
+  
   components: {
     Hero,
     // TableLite,
+    DataTable,
     Intro,
     Features,
     Donate,
