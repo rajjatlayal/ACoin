@@ -1,2 +1,2 @@
 # ACoin
-VueJS Learning
+VueJS + Blockchain + Firebase Project
